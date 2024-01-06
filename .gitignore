@@ -1,0 +1,27 @@
+# PostgreSQL
+*.sql
+
+# pgAdmin
+.pgAdmin/
+.pgpass
+
+# Virtual Environment
+venv/
+__pycache__/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Ignore database dumps
+*.dump
+*.bak
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore macOS system files
+.DS_Store
