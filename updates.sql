@@ -3,6 +3,9 @@
 ALTER TABLE teachers
 ADD COLUMN department VARCHAR(50);
 
+ALTER TABLE students
+ADD COLUMN class_number VARCHAR(20); 
+
 */
 
 SELECT teacher_id, first_name, last_name,
