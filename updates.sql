@@ -5,4 +5,13 @@ ADD COLUMN department VARCHAR(50);
 
 */
 
-SELECT * FROM students;
+SELECT teacher_id, first_name, last_name,
+
+CASE 
+	WHEN teacher_id = 8 THEN 'Winner'
+	WHEN teacher_id = 14 THEN 'Winner'
+	WHEN teacher_id = 7 THEN 'Winner'
+	ELSE 'Not Winners'
+END AS Waffel_party
+
+FROM teachers;
